@@ -1,0 +1,141 @@
+
+*{
+box_sizing ="border_box";
+
+}
+
+body {
+   margin: 0;
+   font-family: Arial;
+   background-color: white;
+   color: black;
+}
+header {
+   background-color: #202438;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+nav a {
+   color: white;
+   margin: 10px;
+   text-decoration: none;
+}
+section {
+   padding: 40px;
+   text-align: center;
+}
+h1 {
+   font-size: 40px;
+}
+h2 {
+   width: 370px;
+	height: 34px;
+	color: #f0f0f0;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.28;
+	text-align: MIDDLE;
+}
+.hero {
+   background-color: #edf1ff;
+   padding: 60px;
+}
+.button {
+   background-color: darkred;
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+}
+.services {
+   display: flex;
+   gap: 20px;
+}
+.card {
+   background-color: #f6f7fb;
+   padding: 20px;
+   border: 1px solid gray;
+   width: 33%;
+}
+#about {
+   background-color: #88a0ff;
+}
+input {
+   padding: 8px;
+}
+input[type="submit"] {
+   background-color: darkred;
+   color: white;
+   border: none;
+   padding: 10px;
+}
+footer {
+   background-color: #7688e4;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+@media (max-width: 700px) {
+   .services {
+       flex-direction: column;
+   }
+   .card {
+       width: 100%;
+   }
+
+   .img {
+    width: 100px;
+    height: 200px;
+    margin: 12px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    object-fit: cover;}
+   
+   }
+
+.signin-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.signin-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.signin-container button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.my-video {
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  padding: 0px 10px;
+  background: #29323D;
+  border: 1px solid #29323D;
+  border-radius: 2px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+.header {
+	width: 32px;
+	height: 32px;
+	fill: #444444;
+}
